@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Scheduling Website</title>
+</head>
+<body>
+  <header>
+    <h1>Scheduling Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Schedules</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Create a New Schedule</h2>
+    <form>
+      <label for="title">Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+      <label for="date">Date:</label><br>
+      <input type="date" id="date" name="date"><br>
+      <label for="start-time">Start Time:</label><br>
+      <input type="time" id="start-time" name="start-time"><br>
+      <label for="end-time">End Time:</label><br>
+      <input type="time" id="end-time" name="end-time"><br><br>
+      <input type="submit" value="Create Schedule" class="btn">
+    </form>
+  </main>
+  <footer>
+    <p>Copyright 2021</p>
+  </footer>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
